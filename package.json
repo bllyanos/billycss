@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build" : "node-sass --output-style compressed index.scss dist/glassmorphism.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/bllyanos/billycss/issues"
   },
-  "homepage": "https://github.com/bllyanos/billycss#readme"
+  "homepage": "https://github.com/bllyanos/billycss#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
 }
