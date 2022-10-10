@@ -1,11 +1,12 @@
 {
   "name": "billycss",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build" : "node-sass --output-style compressed index.scss dist/billycss.css",
-    "build:debug" : "node-sass index.scss dist/billycss.css",
+    "rmdist" : "rm -rf dist",
+    "build" : "npm run rmdist && node-sass --output-style compressed index.scss dist/billycss.css",
+    "build:debug" : "npm run rmdist && node-sass index.scss dist/billycss.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
