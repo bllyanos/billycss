@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build" : "node-sass --output-style compressed index.scss dist/glassmorphism.css",
-    "build:debug" : "node-sass index.scss dist/glassmorphism.css",
+    "build" : "node-sass --output-style compressed index.scss dist/billycss.css",
+    "build:debug" : "node-sass index.scss dist/billycss.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
